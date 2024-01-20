@@ -1,0 +1,113 @@
+body {
+  background-color: #ecf4f3;
+  text-align: center;
+  margin: 0px;
+}
+
+.top-container {
+  position: relative;
+  padding: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 30px;
+  right: 28%;
+}
+.bottom-cloud {
+  display: block;
+  position: absolute;
+  left: 28%;
+  bottom: 400px;
+}
+.mountain {
+  padding: 0, 50px, 0, 50px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: gray;
+  border-width: 5px;
+}
+#pro {
+  text-decoration: underline;
+}
+
+.profile-img {
+  border-radius: 100%;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: powderblue;
+  margin-bottom: 0px;
+}
+
+/* Middle Container */
+.middle-container {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 50%;
+  text-align: center;
+}
+button {
+  background-color: rgb(0, 0, 99);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  padding: 0, 10px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+button:hover {
+  background-color: rgb(19, 19, 220);
+}
+a {
+  padding: 10px;
+  color: rgb(0, 0, 75);
+  text-decoration: none;
+}
+
+a:hover {
+  color: azure;
+}
+#rights {
+  font-size: small;
+  color: aliceblue;
+  padding-bottom: 5px;
+}
+.chillie {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 16px;
+}
+.computer {
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-left: 16px;
+}
+.p1 {
+  text-align: left;
+  line-height: 1.2;
+  font-size: 1.2em;
+}
+
+.p2 {
+  text-align: right;
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+.iphone-dev {
+  padding: 16px;
+}
+.web {
+  padding: 16px;
+}
